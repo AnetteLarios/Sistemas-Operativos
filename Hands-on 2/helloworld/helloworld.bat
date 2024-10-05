@@ -8,15 +8,15 @@ echo Contenido del directorio actual:
 dir
 echo.
 
-REM Crear un subdirectorio llamado Test
+REM Crear una carpeta llamado Test
 mkdir Test
 echo Subdirectorio 'Test' creado.
 
-REM Cambiarse al subdirectorio Test
+REM Cambiarse a Test
 cd Test
 echo Cambiado al subdirectorio 'Test'.
 
-REM Listar el contenido del subdirectorio Test
+REM Listar el contenido de Test
 echo.
 echo Contenido del subdirectorio 'Test':
 dir
