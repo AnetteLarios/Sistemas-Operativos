@@ -37,5 +37,3 @@ VBoxManage storageattach "$nombre_vm" --storagectl "$controlador_ide" --port 0 -
 # Muestra resumen de la configuración
 echo "La máquina virtual creada exitosamente:"
 vboxmanage showvminfo "$nombre_vm" | grep -E 'name|OS|cpus|memory|vram|SATA|IDE'
-
-cuando trato de ejecutar este script me dice que no se puede ejecutar, no se ha encontrado el fichero requerido
